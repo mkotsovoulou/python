@@ -1,25 +1,11 @@
-import check50
-import check50.c
+import check50 # import the check50 module
 
-@check50.check()
-def exists():
-    """hello.c exists."""
-    check50.exists("hello.c")
+@check50.check() # tag the function below as check50 check
+def exists(): # the name of the check
+    """description""" # this is what you will see when running check50
+    check50.exists("hello.py") # the actual check
 
-@check50.check(exists)
-def compiles():
-    """hello.c compiles."""
-    check50.c.compile("hello.c", lcs50=True)
-
-@check50.check(compiles)
+@check50.check(exists) # only run this check if the exists check has passed
 def prints_hello():
     """prints "hello, world\\n" """
-    from re import match
-
-    expected = "[Hh]ello, world!?\n"
-    actual = check50.run("./hello").stdout()
-    if not match(expected, actual):
-        help = None
-        if match(expected[:-1], actual):
-            help = r"did you forget a newline ('\n') at the end of your printf string?"
-        raise check50.Mismatch("hello, world\n", actual, help=help)
+    check50.run("python3 hello.py").stdout("[Hh]ello, world!?\n", regex=True).exit(0)
