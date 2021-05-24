@@ -6,3 +6,8 @@ submit50:
 
 check50:
   files: *submit50_files
+  
+lab50:
+  files:
+    - !exclude "*"
+    - !include hello.py
