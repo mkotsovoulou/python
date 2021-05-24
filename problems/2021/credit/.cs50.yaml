@@ -10,4 +10,4 @@ check50:
 lab50:
   files:
     - !exclude "*"
-    - !include hello.py
+    - !include credit.py
