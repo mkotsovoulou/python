@@ -1,6 +1,6 @@
 lab50:
   files:
     - !exclude "*"
-    - !include mario.c
+    - !include mario.py
     - !include pseudocode.txt
     
