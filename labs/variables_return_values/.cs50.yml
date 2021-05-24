@@ -1,2 +1,3 @@
-lab50:
-  file: input.py
+files:
+    - !exclude "*"
+    - !include input.py
