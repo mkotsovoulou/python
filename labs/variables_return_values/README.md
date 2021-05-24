@@ -31,10 +31,13 @@ Modify `input.py` in the text editor at top-right in such a way that the program
 1. prompts a user, via `input`, for his or her name explicitly (as with `Name: `), and
 2. prints precisely `hello, name`, where `name` is the user's inputted name.
 
-- [x] prompts a user, via `input`, for his or her name explicitly (as with `Name: `), and
-- [x] prints precisely `hello, name`, where `name` is the user's inputted name.
-- [ ] check
-- [ ] complie
+
+{% next %}
+
+Now do the following:
+- [ ] check your code
+- [ ] submit it!
+
 <!---
   check "Does your compile?" 
    if compiles.passed 
