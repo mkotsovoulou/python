@@ -46,5 +46,3 @@ Modify `mario.py` in the text editor at top-right in such a way that the program
 1. prompts the user for a positive integer, and
 2. prints that many question marks, all on the same line.
 
-
-{% check %}
