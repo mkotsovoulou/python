@@ -36,12 +36,15 @@ And here is the Solution...
   z = float(x) + float(y)
 {% endspoiler %}
 
-## Execute your program and provide the value 1 for x, and 1 for y
+## Execute your program 
+
+Provide the value 1 for x, and 1 for y
 
 Remember in order to execute your code you type in the terminal:
 ```
 python types.py
 ```
+Make sure that the output is 2.0!
 
 {% next %}
 ### Check Your Code
