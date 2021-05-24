@@ -32,11 +32,11 @@ Modify `input.py` in the text editor at top-right in such a way that the program
 2. prints precisely `hello, name`, where `name` is the user's inputted name.
 
 
-{% check "Does your compile?" %}
+/*{% check "Does your compile?" %}
 {% if compiles.passed %}
   Yes! Nicely done!
 {% else %}
   {{ compiles }}
 {% endif %}
-{% endcheck %}
+{% endcheck %}*/
 
