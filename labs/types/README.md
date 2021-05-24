@@ -20,12 +20,11 @@ Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should
 
 Modify `types.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
 
-
 {% spoiler "Hint 1" %}
 Try to convert your x and y inputs into a numeric data type
 {% endspoiler %}
 
-
+If you need extra help ...
 {% spoiler "Hint 2" %}
   Consider using the float function
 {% endspoiler %}
@@ -37,10 +36,17 @@ And here is the Solution...
   z = float(x) + float(y)
 {% endspoiler %}
 
+## Execute your program and provide the value 1 for x, and 1 for y
+
+Remember in order to execute your code you type in the terminal:
+```
+python types.py
+```
+
 {% next %}
 ### Check Your Code
 
-Execute the below to evaluate the correctness of your code using `check50`, but be sure to compile and test it yourself!
+Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
 
 ```
 check50 mkotsovoulou/python/main/labs/types
