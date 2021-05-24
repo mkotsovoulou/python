@@ -1,0 +1,12 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include population.py
+
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !require population.py
+
+submit50:
+  files: *check50_files
