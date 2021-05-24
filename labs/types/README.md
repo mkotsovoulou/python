@@ -32,9 +32,33 @@ Try to convert your x and y inputs into a numeric data type
 
 {% next %}
 
-Now run your program to test it
-
----
+And here is the Solution...
 {% spoiler "Solution" %}
   z = float(x) + float(y)
 {% endspoiler %}
+
+{% next %}
+### Check Your Code
+
+Execute the below to evaluate the correctness of your code using `check50`, but be sure to compile and test it yourself!
+
+```
+check50 mkotsovoulou/python/main/labs/types
+```
+
+Execute the below to evaluate the style of your code using `style50`.
+
+```
+style50 types.py
+```
+
+{% next %}
+
+## Submit your code
+
+Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+
+```
+submit50 mkotsovoulou/python/main/labs/types
+```
+
