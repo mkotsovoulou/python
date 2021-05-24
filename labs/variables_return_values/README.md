@@ -1,6 +1,6 @@
 # Variables, Return Values
 
-Whereas some functions take input (e.g., `print`), others produce output. And some do both!
+Whereas some functions take input (e.g., `print`), others produce output. And some do both!:smile:
 
 For instance, recall that Python has a function called `input`, which waits for the user to type something in the terminal window, followed by Enter, and then "returns" whatever the user typed so that it can be stored in a variable (or even passed as input to another function).
 
