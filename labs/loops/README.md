@@ -47,3 +47,4 @@ Modify `mario.py` in the text editor at top-right in such a way that the program
 2. prints that many question marks, all on the same line.
 
 
+{% check %}
