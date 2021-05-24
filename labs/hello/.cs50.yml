@@ -9,3 +9,9 @@ check50:
       - run: python3 hello.py
         stdout: Hello, world!
         exit: 0
+
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "*.py"
+    - !require hello.py
