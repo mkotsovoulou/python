@@ -1,0 +1,12 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include mario.py
+
+submit50:
+  files: &files
+    - !exclude "*"
+    - !require mario.py
+
+check50:
+  files: *files
