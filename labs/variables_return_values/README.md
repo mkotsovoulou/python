@@ -39,10 +39,10 @@ Modify `input.py` in the text editor at top-right in such a way that the program
 [comment]: #  check "Does your compile?" 
  [//]: #    if compiles.passed 
  [//]: #  Yes! Nicely done!
- [//]: #{% else %}
- [//]: #  {{ compiles }}
- [//]: #{% endif %}
- [//]: #{% endcheck %}
+ [//]: # else 
+ [//]: #   compiles 
+ [//]: # endif 
+ [//]: # endcheck 
  
  
 <!--- end of comments --->
