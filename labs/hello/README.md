@@ -2,7 +2,7 @@
 
 ## Listing Files
 
-Hello, world! At right, in the *text editor*, is the very first program we wrote in C, in a file called `hello.c`.
+Hello, world! At right, in the *text editor*, is the very first program we wrote in Python, in a file called `hello.py`.
 
 Click the folder icon, and you'll see that `hello.py` is the only file that's present at the moment. Click the folder icon again to hide all that.
 
@@ -12,30 +12,15 @@ Next, in the *terminal window* at right, immediately to the right of the dollar 
 ls
 ```
 
-You should see just `hello.c`? That's because you've just listed the files in that same folder, this time using a command-line interface (CLI), using just your keyboard, rather than the graphical user interface (GUI) represented by that folder icon. In particular, you *executed* (i.e., ran) a command called `ls`, which is shorthand for "list" (it's such a frequently used command that its authors called it just `ls` to save keystrokes). Make sense?
+You should see just `hello.py`? That's because you've just listed the files in that same folder, this time using a command-line interface (CLI), using just your keyboard, rather than the graphical user interface (GUI) represented by that folder icon. In particular, you *executed* (i.e., ran) a command called `ls`, which is shorthand for "list" (it's such a frequently used command that its authors called it just `ls` to save keystrokes). Make sense?
 
 Here on out, to execute (i.e., run) a command means to type it into a terminal window and then hit Enter. Commands are "case-sensitive," so be sure not to type in uppercase when you mean lowercase or vice versa.
 
 {% next %}
 
-## Compiling Programs
+## Running Programs
 
-Now, before we can execute the program at right, recall that we must *compile* it with a *compiler* (e.g., `clang`), translating it from *source code* into *machine code* (i.e., zeroes and ones). Execute the command below to do just that:
-
-```
-clang hello.c
-```
-
-And then execute this one again:
-
-```
-ls
-```
-
-This time, you should see not only `hello.c` but `a.out` listed as well (you can see the same graphically if you click that folder icon again)? That's because `clang` has translated the source code in `hello.c` into machine code in `a.out`, which happens to stand for "assembler output," but more on that another time.
-
-Now run the program by executing the below.
-
+Now type in the terminal:
 ```
 python hello.py
 ```
@@ -45,89 +30,25 @@ Hello, world, indeed!
 {% next %}
 
 ## Naming Programs
-
+Make sure your program is saved as hello.py
 
 Hello there again!
 
 {% next %}
 
 
-## Getting User Input
-
-Suffice it to say, no matter how you compile or execute this program, it only ever prints `hello, world`. Let's personalize it a bit, just as we did in class.
-
-Modify this program in such a way that it first prompts the user for their name and then prints `hello, so-and-so`, where `so-and-so` is their actual name.
-
-As before, be sure to compile your program with:
-
-```
-make hello
-```
-
-And be sure to execute your program, testing it a few times with different inputs, with:
-
-```
-./hello
-```
-
-### Staff's Solution
-
-To try out the staff's implementation of this problem, execute
-
-<pre>
-./hello
-</pre>
-
-within [this sandbox](http://bit.ly/2Qp0a2g).
-
-### Walkthrough
-
-{% video https://www.youtube.com/watch?v=wSk1KSDUEYA %}
-
-### Hints
-
-#### Don't recall how to prompt the user for their name?
-
-Recall that you can use `get_string` as follows, storing its *return value* in a variable called `name` of type `string`.
-
-```c
-string name = get_string("What is your name?\n");
-```
-
-#### Don't recall how to format a string?
-
-Don't recall how to join (i.e., concatenate) the user's name with a greeting? Recall that you can use `printf` not only to print but to format a string (hence, the `f` in `printf`), a la the below, wherein `name` is a `string`.
-
-```c
-printf("hello, %s\n", name);
-```
-
-#### Use of undeclared identifier?
-
-Seeing the below, perhaps atop other errors?
-
-```
-error: use of undeclared identifier 'string'; did you mean 'stdin'?
-```
-
-Recall that, to use `get_string`, you need to include `cs50.h` (in which `get_string` is *declared*) atop a file, as with:
-
-```c
-#include <cs50.h>
-```
-
 ### How to Test Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to compile and test it yourself!
 
 ```
-check50 cs50/problems/2019/fall/hello
+check50 mkotsovoulou/python/main/labs/hello
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 hello.c
+style50 hello.py
 ```
 
 {% next %}
@@ -137,5 +58,5 @@ style50 hello.c
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/problems/2019/fall/hello
+submit50 mkotsovoulou/python/main/labs/hello
 ```
