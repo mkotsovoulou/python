@@ -1,6 +1,7 @@
 lab50:
-  files: types.py
-
+  files: 
+   - !include types.py
+   
 check50: 
   files: &check50_files
     - !exclude "*"
