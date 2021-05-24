@@ -22,7 +22,10 @@ Modify `types.py` in the text editor at top-right in such a way that the program
 
 
 {% spoiler %}
-TODO
+Try to convert your x and y inputs into a numeric data type
 {% endspoiler %}
 
 
+{% spoiler %}
+  Consider using the float function
+{% endspoiler %}
