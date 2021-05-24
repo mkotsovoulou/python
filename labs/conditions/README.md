@@ -13,8 +13,6 @@ In `mario.py` in the text editor at top-right, implement a program that
 1. prompts the user for an integer between 1 and 4, inclusive, re-prompting the user  (again and again as needed) if his or her input is less than 1 or greater than 4,
 2. prints precisely that many hash tags, one per line.
 
-{% check %}
-
 {% spoiler Hint %}
 Recall that you can induce an "infinite loop" with code like:
 
@@ -30,5 +28,3 @@ while True:
 		    break
 ```
 {% endspoiler %}
-
-{% submit %}
