@@ -46,7 +46,7 @@ python types.py
 ```
 Make sure that the output is 2.0!
 
-{% next %}
+{% previous %} {% next %}
 
 ### Check Your Code
 
