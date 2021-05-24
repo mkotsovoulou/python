@@ -1,2 +1,4 @@
 lab50:
-  file: mario.py
+  files:
+    - !exclude "*"
+    - !include conditions.py
