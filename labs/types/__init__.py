@@ -8,4 +8,4 @@ def exists(): # the name of the check
 @check50.check(exists) # only run this check if the exists check has passed
 def prints2():
     """prints "2?" """
-    check50.run("python3 types.py").stdout("2\n", regex=True).exit(0)
+    check50.run("python3 types.py").stdout("2.0\n", regex=True).exit(0)
