@@ -36,8 +36,8 @@ Modify `input.py` in the text editor at top-right in such a way that the program
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-/*{% check "Does your compile?" %}
-{% if compiles.passed %}
+[comment]: # {% check "Does your compile?" %}
+           # {% if compiles.passed %}
   Yes! Nicely done!
 {% else %}
   {{ compiles }}
