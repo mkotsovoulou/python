@@ -1,0 +1,4 @@
+ab50:
+  files:
+    - !exclude "*"
+    - !include cash.py
