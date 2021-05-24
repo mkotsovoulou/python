@@ -30,6 +30,11 @@ Try to convert your x and y inputs into a numeric data type
   Consider using the float function
 {% endspoiler %}
 
+{% next %}
+
+Now run your program to test it
+
+---
 {% spoiler "Solution" %}
   z = float(x) + float(y)
 {% endspoiler %}
