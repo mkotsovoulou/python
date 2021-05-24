@@ -9,24 +9,6 @@ Let's recreate a bit of that game, albeit in text!
 
 In `mario.py`, implement a program that prints, quite simply, `????`, without using a loop.
 
-{% check "Does your compile?" %}
-{% if compiles.passed %}
-  Yes! Nicely done!
-{% else %}
-  {{ compiles }}
-{% endif %}
-{% endcheck %}
-
-{% check "Does your code print `????`?" %}
-{{ nope }}
-{% endcheck %}
-
-{% check "Does your code avoid using a loop?" %}
-TODO
-{% endcheck %}
-
-{% next %}
-
 Elsewhere in Super Mario Bros., there might be more (or even fewer) than four question marks in the sky. Let's prepare for as much.
 
 Modify `mario.py` in the text editor at top-right in such a way that the program prints, quite simply, `????`, this time using a loop to print each question mark one at a time, each on the same line.
@@ -64,4 +46,4 @@ Modify `mario.py` in the text editor at top-right in such a way that the program
 1. prompts the user for a positive integer, and
 2. prints that many question marks, all on the same line.
 
-{% submit %}
+
