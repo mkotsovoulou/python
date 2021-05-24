@@ -4,7 +4,7 @@
 
 Hello, world! At right, in the *text editor*, is the very first program we wrote in C, in a file called `hello.c`.
 
-Click the folder icon, and you'll see that `hello.c` is the only file that's present at the moment. Click the folder icon again to hide all that.
+Click the folder icon, and you'll see that `hello.py` is the only file that's present at the moment. Click the folder icon again to hide all that.
 
 Next, in the *terminal window* at right, immediately to the right of the dollar sign (`$`), otherwise known as a *prompt*, type precisely the below (in lowercase), then hit Enter:
 
@@ -37,7 +37,7 @@ This time, you should see not only `hello.c` but `a.out` listed as well (you can
 Now run the program by executing the below.
 
 ```
-./a.out
+python hello.py
 ```
 
 Hello, world, indeed!
@@ -46,45 +46,11 @@ Hello, world, indeed!
 
 ## Naming Programs
 
-Now, `a.out` isn't the most user-friendly name for a program. Let's compile `hello.c` again, this time saving the machine code in a file called, more aptly, `hello`. Execute the below.
-
-```
-clang -o hello hello.c
-```
-
-Take care not to overlook any of those spaces therein! Then execute this one again:
-
-```
-ls
-```
-
-You should now see not only `hello.c` (and `a.out` from before) but also `hello` listed as well? That's because `-o` is a *command-line argument*, sometimes known as a *flag* or a *switch*, that tells `clang` to output (hence the `o`) a file called `hello`. Execute the below to try out the newly named program.
-
-```
-./hello
-```
 
 Hello there again!
 
 {% next %}
 
-## Making Things Easier
-
-Recall that we can automate the process of executing `clang`, letting `make` figure out how to do so for us, thereby saving us some keystrokes. Execute the below to compile this program one last time.
-
-```
-make hello
-```
-
-You should see that `make` executes `clang` with even more command-line arguments for you? More on those, too, another time!
-
-Now execute the program itself one last time by executing the below.
-
-```
-./hello
-```
-
-Phew!
 
 ## Getting User Input
 
