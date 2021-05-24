@@ -9,7 +9,6 @@ In `input.py` in the text editor at top-right, write a program that
 1. prompts a user, via `input`, for his or her name, and
 1. prints precisely `hello, name`, where `name` is the user's inputted name.
 
-{% check %}
 
 {% next %}
 
@@ -33,5 +32,5 @@ Modify `input.py` in the text editor at top-right in such a way that the program
 2. prints precisely `hello, name`, where `name` is the user's inputted name.
 
 {% check %}
-
-{% submit %}
+  
+{% endcheck %}
