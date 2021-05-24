@@ -1,2 +1,10 @@
 lab50:
   file: types.py
+
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require types.py
+
+submit50:
+  files: *check50_files
