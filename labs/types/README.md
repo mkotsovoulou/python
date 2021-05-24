@@ -21,11 +21,11 @@ Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should
 Modify `types.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
 
 
-{% spoiler %}
+{% spoiler "1" %}
 Try to convert your x and y inputs into a numeric data type
 {% endspoiler %}
 
 
-{% spoiler %}
+{% spoiler "2" %}
   Consider using the float function
 {% endspoiler %}
