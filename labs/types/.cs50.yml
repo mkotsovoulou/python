@@ -1,5 +1,5 @@
 lab50:
-  file: types.py
+  files: types.py
 
 check50: 
   files: &check50_files
