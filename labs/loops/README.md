@@ -1,22 +1,3 @@
----
-foo: bar
-results:
-  exists:
-    description: "caesar.c exists."
-    status: true
-    log:
-      - "checking that caesar.c exists..."
-  compiles:
-    description: "caesar.c compiles."
-    status: true
-    log:
-      - "running clang caesar.c -o caesar -std=c11 -ggdb -lm -lcs50..."
-      - "checking that program exited with status 0..."
-  encrypts_a_as_b:
-    description: "encrypts \"a\" as \"b\" using 1 as key"
-    status: null
-    log: []
----
 
 # Loops
 
