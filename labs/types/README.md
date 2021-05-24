@@ -15,7 +15,7 @@ Type `python types.py` in the terminal window at bottom-right, followed by Enter
 How curious!
 
 {% next %}
-
+### Not what you expected!
 Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should, of course, equal 2.
 
 Modify `types.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
@@ -36,7 +36,7 @@ And here is the Solution...
   z = float(x) + float(y)
 {% endspoiler %}
 
-## Execute your program 
+### Execute your program 
 
 Provide the value 1 for x, and 1 for y
 
@@ -47,6 +47,7 @@ python types.py
 Make sure that the output is 2.0!
 
 {% next %}
+
 ### Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
