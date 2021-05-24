@@ -31,6 +31,10 @@ Modify `input.py` in the text editor at top-right in such a way that the program
 1. prompts a user, via `input`, for his or her name explicitly (as with `Name: `), and
 2. prints precisely `hello, name`, where `name` is the user's inputted name.
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 /*{% check "Does your compile?" %}
 {% if compiles.passed %}
