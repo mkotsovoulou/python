@@ -20,8 +20,8 @@ def gradeB():
 @check50.check(exists)
 def gradeC():
     """Returns C for grades between 70 and 79"""
-    check50.run("python3 grades.py").stdin("80").stdout("C").exit()
-    check50.run("python3 grades.py").stdin("89").stdout("C").exit()
+    check50.run("python3 grades.py").stdin("70").stdout("C").exit()
+    check50.run("python3 grades.py").stdin("79").stdout("C").exit()
 
 @check50.check(exists)
 def gradeD():
