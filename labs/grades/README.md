@@ -23,15 +23,19 @@ python grades.py
 Enter as input 99
 and check that the output is A
 
- {% next %}
+Run your code again, now enter 5 as input and check that the output is F
+
+Run your code once more and enter 102 as input and check that the output is Wrong grade
+
+{% next %}
  
- ## Check your code 
+ ## Check your code, using the check tool
  
 ```
 check50  mkotsovoulou/python/main/labs/grades
 ```
 
- ## Check the styling of your code 
+ ## Check the styling of your code, using the style tool
  
 ```
 style50  mkotsovoulou/python/main/labs/grades
