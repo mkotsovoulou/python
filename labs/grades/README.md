@@ -24,6 +24,7 @@ Enter as input 99
 and check that the output is A
 
  {% next %}
+ 
  ## Check your code 
  
 ```
@@ -31,12 +32,14 @@ check50  /mkotsovoulou/python/main/labs/grades
 ```
 
  ## Check the styling of your code 
+ 
 ```
 style50  /mkotsovoulou/python/main/labs/grades
 ```
 
 ## Submit your code 
- ```
+
+```
 submit50  /mkotsovoulou/python/main/labs/grades
 ```
 
