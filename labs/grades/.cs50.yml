@@ -2,7 +2,7 @@ lab50:
   files:
     - !exclude "*"
     - !include grades.py
-    
+
 check50:
   files:
     - !exclude "*"
@@ -10,4 +10,3 @@ check50:
     
 submit50:
   files: *check50_files
-    
