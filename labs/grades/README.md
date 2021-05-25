@@ -29,19 +29,19 @@ Run your code once more and enter 102 as input and check that the output is Wron
 
 {% next %}
  
- ## Check your code, using the check tool
+## Check your code, using the check tool
  
 ```
 check50  mkotsovoulou/python/main/labs/grades
 ```
 
- ## Check the styling of your code, using the style tool
+## Check the styling of your code, using the style tool
  
 ```
 style50  mkotsovoulou/python/main/labs/grades
 ```
 
-## Submit your code 
+## Submit your work 
 
 ```
 submit50  mkotsovoulou/python/main/labs/grades
