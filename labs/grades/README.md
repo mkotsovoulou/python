@@ -1,4 +1,5 @@
-# CALCULATE STUDENT SCORE
+# CALCULATE STUDENT LETTER GRADE
+
 Based on the following table, create a program **grades.py** to allow the user
 input a students grade in the scale of 0 to 100 and using the following GRADE SCALE output the letter grade...
 
