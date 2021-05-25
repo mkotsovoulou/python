@@ -31,7 +31,7 @@ def gradeD():
 
 @check50.check(exists)
 def gradeF():
-    """Returns F for grades between 60 and 69"""
+    """Returns F for grades between 0 and 59"""
     check50.run("python3 grades.py").stdin("0").stdout("F").exit()
     check50.run("python3 grades.py").stdin("59").stdout("F").exit()
     
