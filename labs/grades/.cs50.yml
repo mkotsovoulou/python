@@ -1,5 +1,6 @@
 lab50:
   files: 
+   - !exclude "*"
    - !include grades.py
    
 check50: 
