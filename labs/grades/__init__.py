@@ -2,7 +2,7 @@ import check50
 
 @check50.check()
 def exists():
-    """readability.py exists."""
+    """grades.py exists."""
     check50.exists("grades.py")
 
 @check50.check(exists)
