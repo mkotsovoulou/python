@@ -36,6 +36,15 @@ def gradeF():
     check50.run("python3 grades.py").stdin("59").stdout("F").exit()
     
 @check50.check(exists)   
-def wrongNumber():
-    """Returns wrong number"""
-    check50.run("python3 grades.py").stdin("101").stdout("[Ww]rong [Gg]rade?\n", regex=True).exit()
+def wrongGrade():
+    """Returns wrong grade for invalid grades"""
+    from re import match
+    
+    expected = "[Ww]rong [Gg]rade?\n"
+    actual = check50.run("python3 grades.py").stdin("101").stdout()
+    if not match(expected, actual):
+        help = None
+        if match(expected[:-1], actual):
+            help = r"did you forget a newline ('\n') at the end of your print string?"
+        raise check50.Mismatch("Wrong grade\n", actual, help=help)
+
