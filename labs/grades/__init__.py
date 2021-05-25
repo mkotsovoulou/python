@@ -38,4 +38,4 @@ def gradeF():
 @check50.check(exists)   
 def wrongNumber():
     """Returns wrong number"""
-    check50.run("python3 grades.py").stdin("101").stdout("^[Ww]rong [Gg]rade?\n", regex=True).exit()
+    check50.run("python3 grades.py").stdin("101").stdout("[Ww]rong [Gg]rade?\n", regex=True).exit()
