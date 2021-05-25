@@ -1,12 +1,11 @@
 lab50:
-  files:
+  files: 
+   - !include grades.py
+   
+check50: 
+  files: &check50_files
     - !exclude "*"
-    - !include grades.py
+    - !require grades.py
 
-check50:
-  files:
-    - !exclude "*"
-    - !include grades.py
-    
 submit50:
   files: *check50_files
