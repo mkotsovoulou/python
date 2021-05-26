@@ -38,7 +38,7 @@ check50  mkotsovoulou/python/main/labs/grades
 ## Check the styling of your code, using the style tool
  
 ```
-style50  mkotsovoulou/python/main/labs/grades
+style50 grades.py
 ```
 
 ## Submit your work 
