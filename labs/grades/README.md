@@ -1,15 +1,17 @@
 # CALCULATE STUDENT LETTER GRADE
 
 Based on the following table, create a program grades.py to allow the user
-input a students grade in the scale of 0 to 100 and using the following GRADE SCALE output the letter grade...
+input a students grade in the scale of 0 to 100 and using the following GRADING SCALE output the letter grade.
 
 FROM | TO | LETTER GRADE
 ------------ | ------------- | -------------
-100 | 90 | A
-80 | 89 | B
-70 | 79 | C
-60 | 69 | D
-0 | 59 | F
+100 | 70 | A
+69 | 65 | A-
+64 | 60 | B+
+59 | 50 | B
+49 | 45 | C+
+44 | 40 | C
+39 | 0 | F
 
  {% next %}
  
