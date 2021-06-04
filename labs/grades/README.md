@@ -2,7 +2,7 @@
 ## General information
 Create a script that extracts a °F temperature from a phrase, converts it in °C, and then displays the original phrase with the temperature °C, properly formatted. 
 The phrase should be like the following example:
-"Temperature in Athens is: 69 degrees °F"
+"Temperature in Athens is: 69 degrees F"
 Assume that the phrase has the format appearing above, so it contains 6 items, and the temperature value is always the 5th item
 Your script should extract the original temperature, convert the temperature into C degrees, so that it can be reused in a European web site.
 Print the converted text as: "Temperature in Athens is: 20.56 °C"
@@ -14,43 +14,39 @@ The program should work for any value in F degrees inside the original string - 
 
 {% next %}
 
-## 
-
-
-
-
  
 ## Run your program to see if it compiles
 
 ```
-python grades.py
+python temperature.py
 ```
+With the original phrase "Temperature in Athens is: 69 degrees F", the output should be
+"Temperature in Athens is: 20.56 °C"
 
-Enter as input 99
-and check that the output is A
+Edit the original phrase in the code so that it reads "Temperature in Athens is: 75 degrees F"
+Run your code again, the output should be "Temperature in Athens is: 23.89 °C"
 
-Run your code again, now enter 5 as input and check that the output is F
-
-Run your code once more and enter 102 as input and check that the output is Wrong grade
+Edit once more the original phrase in the code so that it reads "Temperature in Athens is: 102 degrees F"
+Run your code again, the output should be "Temperature in Athens is: 38.89 °C"
 
 {% next %}
  
 ## Check your code, using the check tool
  
 ```
-check50  mkotsovoulou/python/main/labs/grades
+check50  mkotsovoulou/python/main/labs/temperature
 ```
 
 ## Check the styling of your code, using the style tool
  
 ```
-style50 grades.py
+style50 temperature.py
 ```
 
 ## Submit your work 
 
 ```
-submit50  mkotsovoulou/python/main/labs/grades
+submit50  mkotsovoulou/python/main/labs/temperature
 ```
 
 DONE!
