@@ -1,20 +1,24 @@
-# CALCULATE STUDENT LETTER GRADE
+# TEMPERATURE CONVERSION
+## General information
+Create a script that extracts a °F temperature from a phrase, converts it in °C, and then displays the original phrase with the temperature °C, properly formatted. 
+The phrase should be like the following example:
+"Temperature in Athens is: 69 degrees °F"
+Assume that the phrase has the format appearing above, so it contains 6 items, and the temperature value is always the 5th item
+Your script should extract the original temperature, convert the temperature into C degrees, so that it can be reused in a European web site.
+Print the converted text as: "Temperature in Athens is: 20.56 °C"
+Format the output so that:
+the temperature in C is rounded to 2 decimals.
+the degrees symbol ° that appears before C is set with its ASCII code (176) - hint: use the chr() function
 
-Based on the following table, create a program grades.py to allow the user
-input a students grade in the scale of 0 to 100 and using the following GRADING SCALE output the letter grade.
+The program should work for any value in F degrees inside the original string - so after you write the script, change the value of degrees F in the original string and make sure that the program runs properly. Before you submit, change the value of the original text back to 69.
 
-FROM | TO | LETTER GRADE
------------- | ------------- | -------------
-100 | 70 | A
-69 | 65 | A-
-64 | 60 | B+
-59 | 50 | B
-49 | 45 | C+
-44 | 40 | C
-39 | 0 | F
+{% next %}
 
- {% next %}
- 
+## 
+
+
+
+
  
 ## Run your program to see if it compiles
 
