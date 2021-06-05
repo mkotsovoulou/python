@@ -2,7 +2,7 @@
 ## General information
 Create a script that extracts a °F temperature from a phrase, converts it in °C, and then displays the original phrase with the temperature °C, properly formatted. 
 The phrase should be like the following example:
-"Temperature in Athens is: 69 degrees F"
+"Temperature in Athens is: 69 °F"
 Assume that the phrase has the format appearing above, so it contains 6 items, and the temperature value is always the 5th item
 Your script should extract the original temperature, convert the temperature into C degrees, so that it can be reused in a European web site.
 Print the converted text as: "Temperature in Athens is: 20.56 °C"
