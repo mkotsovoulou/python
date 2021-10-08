@@ -6,13 +6,19 @@ Use the input to figure out the letter grade which corresponds to the numeric gr
 
 
 ![Image of ranges](https://github.com/mkotsovoulou/python/blob/main/labs/grades/ranges.png)
- 
-## Run your program to see if it compiles
+{% next %}
+First try to accept user input into a variable and display that value
+Then construct the if-them-else statement and display the resulting letter grade.
+{% next %}
+
+## Run your program to see if it compiles and executes
 
 ```
 python grades.py
 ```
+## Run your program to see if it compiles and executes
 
+test your code with various input and see if the output is the expected one!
 
 {% next %}
  
