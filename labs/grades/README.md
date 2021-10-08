@@ -5,7 +5,7 @@ Write a program which will ask the user to input a numeric grade from 0 to 100.
 Use the input to figure out the letter grade which corresponds to the numeric grade, based on the following table:
 
 
-![Image of ranges](https://github.com/mkotsovoulou/python/main/labs/grades/ranges.png)
+![Image of ranges](https://github.com/mkotsovoulou/python/blob/main/labs/grades/ranges.png)
 
 {% next %}
 
