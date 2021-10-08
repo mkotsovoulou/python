@@ -1,8 +1,15 @@
 # CONVERT GRADES FROM NUMERIC TO A,B,C.. etc
 ## General information
 
-
-{% next %}
+Write a program which will ask the user to input a numeric grade from 0 to 100.
+Use the input to figure out the letter grade which corresponds to the numeric grade, based on the following table:
+Low Range | High Range | Letter grade
+------------ | -------------|-------------
+0  | 59 |F
+60 | 69 |D
+70 | 79 |C
+80 | 89 |B
+90 | 100 | A
 
  
 ## Run your program to see if it compiles
