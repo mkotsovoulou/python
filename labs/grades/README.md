@@ -5,10 +5,18 @@ Write a program which will ask the user to input a numeric grade from 0 to 100.
 Use the input to figure out the letter grade which corresponds to the numeric grade, based on the following table:
 
 
-![Image of ranges](https://github.com/mkotsovoulou/python/blob/main/labs/grades/ranges.png)
+![Image of ranges](https://github.com/mkotsovoulou/python/main/labs/grades/ranges.png)
+
 {% next %}
-First try to accept user input into a variable and display that value
+
+## Step 1: accpet user input
+
+First try to accept user input into a variable and display that value.
+
+## Step 2: if-then-else
+
 Then construct the if-them-else statement and display the resulting letter grade.
+
 {% next %}
 
 ## Run your program to see if it compiles and executes
