@@ -9,24 +9,24 @@ Use the input to figure out the letter grade which corresponds to the numeric gr
 
 {% next %}
 
-## Step 1: accpet user input
+## Step 1: accept user input
 
 First try to accept user input into a variable and display that value.
 
 ## Step 2: if-then-else
 
-Then construct the if-them-else statement and display the resulting letter grade.
+Then, construct the if-them-else statement and display the resulting letter grade.
 
 {% next %}
 
-## Run your program to see if it compiles and executes
+## Step 3: Run your program to see if it compiles and executes
 
 ```
 python grades.py
 ```
-## Run your program to see if it compiles and executes
+## Step 4: Test
 
-test your code with various input and see if the output is the expected one!
+Test your code with various input and see if the output is the expected one!
 
 {% next %}
  
