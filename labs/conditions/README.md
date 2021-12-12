@@ -23,3 +23,21 @@ while True:
 		    break
 ```
 {% endspoiler %}
+
+
+{% spoiler Hint 2 %}
+Recall that you can catch exceptions
+
+```
+while True:
+```
+
+And recall that you can break out of an (otherwise) infinite loop with code like:
+
+```
+while True:
+    if something is True:
+		    break
+```
+{% endspoiler %}
+
