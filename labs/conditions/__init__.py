@@ -23,7 +23,7 @@ def wrongInput():
     from re import match
     
     expected = "[Ww]rong [Nn]umber\n"
-    actual = check50.run("python3 conditions.py").stdin("5").stdout("")
+    actual = check50.run("python3 conditions.py").stdin("5").stdout()
     if not match(expected, actual):
         help = None
         if match(expected[:-1], actual):
