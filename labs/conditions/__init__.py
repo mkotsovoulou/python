@@ -8,8 +8,8 @@ def exists():
 @check50.check(exists)
 def correctInput():
     """Returns correct number of hastags """
-    check50.run("python3 conditions.py").stdin("1").stdout("#").exit()
-    check50.run("python3 conditions.py").stdin("2").stdout("##").exit()
+    check50.run("python3 conditions.py").stdin("1").stdout("You will see 1 stars:").stdout("#").exit()
+    check50.run("python3 conditions.py").stdin("2").stdout("You will see 2 stars:").stdout("##").exit()
     
     
 @check50.check(exists)   
