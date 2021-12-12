@@ -22,7 +22,7 @@ Here on out, to execute (i.e., run) a command means to type it into a terminal w
 
 Now type in the terminal:
 ```
-python hello.py
+python3 hello.py
 ```
 
 Hello, world, indeed!
