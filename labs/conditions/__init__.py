@@ -24,7 +24,7 @@ def test_reject_charactery():
 
 @check50.check(exists)
 def test_reject_wrongnumber():
-    """rejects a invalid height of "5" """
+    """rejects a invalid height of "5" or "-1"""
     check50.run("python3 conditions.py").stdin("5").reject()
     check50.run("python3 conditions.py").stdin("0").reject()
     check50.run("python3 conditions.py").stdin("-1").reject()
