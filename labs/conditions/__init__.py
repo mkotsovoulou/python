@@ -21,16 +21,12 @@ def test_reject_empty():
 def test_reject_charactery():
     """rejects a non-numeric height of "a" """
     check50.run("python3 conditions.py").stdin("a").reject()
+
+@check50.check(exists)
+def test_reject_wrongnumber():
+    """rejects a invalid height of "5" """
+    check50.run("python3 conditions.py").stdin("5").reject()
+    check50.run("python3 conditions.py").stdin("0").reject()
+    check50.run("python3 conditions.py").stdin("-1").reject()
+    help = r"did you to chack for numbers < 1 or > 4?"
     
-@check50.check(exists)   
-def wrongInput():
-    """Returns wrong input """
-    from re import match
-    
-    expected = "[Ww]rong [Nn]umber\nHow many stars (1-4) ?"
-    actual = check50.run("python3 conditions.py").stdin("5").stdout().stdin("4").exit()
-    if not match(expected, actual):
-        help = None
-        if match(expected[:-1], actual):
-            help = r"did you forget a newline ('\n') at the end of your print string?"
-        raise check50.Mismatch("Wrong number\n", actual, help=help)
