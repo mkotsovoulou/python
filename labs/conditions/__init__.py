@@ -3,7 +3,7 @@ import check50.c
 
 @check50.check()
 def exists():
-    """mario.py exists."""
+    """conditions.py exists."""
     check50.exists("conditions.py")
 
 @check50.check(exists)
@@ -16,6 +16,11 @@ def correctInput():
 def test_reject_empty():
     """rejects a non-numeric height of "" """
     check50.run("python3 conditions.py").stdin("").reject()
+    
+@check50.check(exists)
+def test_reject_charactery():
+    """rejects a non-numeric height of "a" """
+    check50.run("python3 conditions.py").stdin("a").reject()
     
 @check50.check(exists)   
 def wrongInput():
