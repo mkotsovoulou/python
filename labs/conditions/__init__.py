@@ -22,10 +22,10 @@ def wrongInput():
     """Returns wrong input """
     from re import match
     
-    expected = "[Ww]rong [Nn]umber\n"
-    actual = check50.run("python3 conditions.py").stdin("5").stdout()
+    expected = "[Ww]rong [Nn]umber\nHow many stars (1-4) ?"
+    actual = check50.run("python3 conditions.py").stdin("5").stdout().stdin("4").exit()
     if not match(expected, actual):
         help = None
         if match(expected[:-1], actual):
             help = r"did you forget a newline ('\n') at the end of your print string?"
-        raise check50.Mismatch("Wrong number (only between 1 and 4 are allowed)\n", actual, help=help)
+        raise check50.Mismatch("Wrong number\n", actual, help=help)
