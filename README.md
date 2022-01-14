@@ -1,4 +1,4 @@
-# python
+# python labs for lab.cs50.io
 
 LAB 1: https://lab.cs50.io/mkotsovoulou/python/main/labs/hello/
 
