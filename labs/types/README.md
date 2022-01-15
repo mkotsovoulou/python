@@ -1,6 +1,7 @@
-# Python Lab 1: Variable DataTypes
+# Python Lab 1: Variables and Types
 
-Recall that Python supports multiple "types," among them strings (aka `str`) and integers (aka `int`). Suffice it to say the type of a variable matters!
+Recall that Python supports multiple "types," among them strings and integers. 
+Suffice it to say the type of a variable matters!
 
 Consider the program in `types.py` in the text editor at top-right. At first glance, it looks like it
 
@@ -15,6 +16,7 @@ Type `python types.py` in the terminal window at bottom-right, followed by Enter
 How curious!
 
 {% next %}
+
 ### Not what you expected!
 Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should, of course, equal 2.
 
@@ -66,7 +68,10 @@ style50 types.py
 
 ## Submit your code
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+
+If you do not have generated a Personal Access ToKen follow the instructions: 
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
 submit50 mkotsovoulou/python/main/labs/types
