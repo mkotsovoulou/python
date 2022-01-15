@@ -1,4 +1,5 @@
-# Lab on Python DataTypes
+# Python-Lab 1 
+## Variable DataTypes
 
 Recall that Python supports multiple "types," among them strings (aka `str`) and integers (aka `int`). Suffice it to say the type of a variable matters!
 
